@@ -11,3 +11,14 @@
   box-shadow: 0 0 5px #fff, inset 0 0 5px #fff, 0 0 20px #ff00de,
     inset 0 0 20px #ff00de, 0 0 20px 2px #ff00de, inset 0 0 20px 2px #ff00de;
 }
+
+/* 3. 2D transform */
+.selector {
+  transform: translate(-90px, 300px) rotate(50deg) scale(0.7, 0.9) skew(15deg);
+}
+
+/* 4. 3D transform */
+.selector {
+  transform: perspective(100px) translate(-90px, 300px) rotate(50deg)
+    scale(0.7, 0.9) skew(15deg);
+}
