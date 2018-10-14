@@ -22,3 +22,10 @@
   transform: perspective(100px) translate(-90px, 300px) rotate(50deg)
     scale(0.7, 0.9) skew(15deg);
 }
+
+/* 5. let grid decide how many item be in one column and how much be the columns width */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
