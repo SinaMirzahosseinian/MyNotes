@@ -29,3 +29,19 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
+
+/* 6.view port units 
+vh viewport height
+vw viewport width
+vmin smaller viewport number
+vmax larger viewport number 
+
+fullscreen picture :
+*/
+<header > <h1 > hero title </h1 > </header > header {
+  display: flex;
+  height: 100vh;
+}
+h1 {
+  margin: auto;
+}
